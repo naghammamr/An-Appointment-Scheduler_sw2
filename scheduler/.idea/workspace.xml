@@ -1,0 +1,571 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1d7b955c-ff46-4fc9-9d57-91eb06e33dd8" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="PHP/C:/xampp/htdocs/moodle/mod/scheduler" pinned="false" current-in-tab="true">
+        <entry file="uml://PHP/C:/xampp/htdocs/moodle/mod/scheduler">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>PHP</ID>
+              <OriginalElement>$PROJECT_DIR$</OriginalElement>
+              <nodes>
+                <node x="1564.0" y="2201.0">$PROJECT_DIR$/db</node>
+                <node x="418.0" y="1504.0">\scheduler_file_info</node>
+                <node x="1178.0" y="2201.0">$PROJECT_DIR$/tests</node>
+                <node x="1932.0" y="1970.0">\scheduler_export_form</node>
+                <node x="0.0" y="1307.0">\scheduler_endtime_field</node>
+                <node x="903.0" y="1251.0">\scheduler_student_field</node>
+                <node x="0.0" y="757.0">\scheduler_csv_canvas</node>
+                <node x="428.0" y="356.0">\scheduler_ods_canvas</node>
+                <node x="1625.0" y="1274.0">\scheduler_teachernote_field</node>
+                <node x="1175.0" y="1285.0">\scheduler_slotnotes_field</node>
+                <node x="1067.0" y="2201.0">$PROJECT_DIR$/model</node>
+                <node x="1400.0" y="1274.0">\scheduler_studentnote_field</node>
+                <node x="1322.0" y="1970.0">\scheduler_scheduling_list</node>
+                <node x="2669.0" y="1970.0">\scheduler_messenger</node>
+                <node x="0.0" y="1784.0">\scheduler_editslot_form</node>
+                <node x="678.0" y="1307.0">\scheduler_starttime_field</node>
+                <node x="2075.0" y="1285.0">\scheduler_teachername_field</node>
+                <node x="0.0" y="2201.0">\scheduler_message_form</node>
+                <node x="3200.0" y="1262.0">\scheduler_profile_field</node>
+                <node x="954.0" y="2201.0">$PROJECT_DIR$/classes</node>
+                <node x="1625.0" y="900.0">\scheduler_export_field</node>
+                <node x="508.0" y="1970.0">\scheduler_slot_booker</node>
+                <node x="187.0" y="769.0">\scheduler_html_canvas</node>
+                <node x="1903.0" y="1504.0">\scheduler_appointment_info</node>
+                <node x="321.0" y="2201.0">\mod_scheduler_mod_form</node>
+                <node x="2350.0" y="1504.0">\scheduler_editappointment_form</node>
+                <node x="197.0" y="1817.5">\scheduler_addsession_form</node>
+                <node x="2300.0" y="1307.0">\scheduler_location_field</node>
+                <node x="1628.0" y="1970.0">\scheduler_slot_manager</node>
+                <node x="1472.0" y="2201.0">$PROJECT_DIR$/yui</node>
+                <node x="976.0" y="1970.0">\scheduler_command_bar</node>
+                <node x="225.0" y="1274.0">\scheduler_appointmentnote_field</node>
+                <node x="601.0" y="2201.0">\scheduler_conflict_list</node>
+                <node x="163.0" y="345.0">\scheduler_cached_text_canvas</node>
+                <node x="6.25" y="1504.0">\scheduler_slotform_base</node>
+                <node x="453.0" y="1307.0">\scheduler_attended_field</node>
+                <node x="983.0" y="0.0">\mod_scheduler_renderer</node>
+                <node x="2750.0" y="1274.0">\scheduler_filecount_field</node>
+                <node x="1379.0" y="2201.0">$PROJECT_DIR$/pix</node>
+                <node x="0.0" y="1970.0">\scheduler_export</node>
+                <node x="1279.0" y="2201.0">$PROJECT_DIR$/lang</node>
+                <node x="2525.0" y="1296.0">\scheduler_grade_field</node>
+                <node x="2975.0" y="1296.0">\scheduler_slotdate_field</node>
+                <node x="404.0" y="757.0">\scheduler_pdf_canvas</node>
+                <node x="2253.0" y="1970.0">\scheduler_totalgrade_info</node>
+                <node x="428.0" y="0.0">\scheduler_canvas</node>
+                <node x="852.0" y="1504.0">\scheduler_slot_table</node>
+                <node x="839.0" y="2201.0">$PROJECT_DIR$/backup</node>
+                <node x="1850.0" y="1307.0">\scheduler_maxstudents_field</node>
+                <node x="693.0" y="356.0">\scheduler_excel_canvas</node>
+                <node x="1394.0" y="1504.0">\scheduler_student_list</node>
+                <node x="2735.0" y="1504.0">\scheduler_booking_form</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="\scheduler_maxstudents_field" target="\scheduler_export_field">
+                  <point x="0.0" y="-48.0" />
+                  <point x="1952.5" y="1231.0" />
+                  <point x="1741.1666666666667" y="1231.0" />
+                  <point x="13.666666666666742" y="125.5" />
+                </edge>
+                <edge source="\scheduler_editslot_form" target="\scheduler_slotform_base">
+                  <point x="0.0" y="-70.5" />
+                  <point x="88.5" y="1759.0" />
+                  <point x="96.5" y="1759.0" />
+                  <point x="-90.25" y="115.0" />
+                </edge>
+                <edge source="\scheduler_appointmentnote_field" target="\scheduler_export_field">
+                  <point x="0.0" y="-81.0" />
+                  <point x="329.0" y="1181.0" />
+                  <point x="1645.5" y="1181.0" />
+                  <point x="-82.0" y="125.5" />
+                </edge>
+                <edge source="\scheduler_endtime_field" target="\scheduler_export_field">
+                  <point x="0.0" y="-48.0" />
+                  <point x="102.5" y="1171.0" />
+                  <point x="1631.8333333333333" y="1171.0" />
+                  <point x="-95.66666666666674" y="125.5" />
+                </edge>
+                <edge source="\scheduler_cached_text_canvas" target="\scheduler_canvas">
+                  <point x="0.0" y="-181.0" />
+                  <point x="285.5" y="320.0" />
+                  <point x="468.8333333333333" y="320.0" />
+                  <point x="-81.66666666666669" y="147.5" />
+                </edge>
+                <edge source="\scheduler_html_canvas" target="\scheduler_cached_text_canvas">
+                  <point x="0.0" y="-37.0" />
+                  <point x="0.0" y="181.0" />
+                </edge>
+                <edge source="\scheduler_teachername_field" target="\scheduler_export_field">
+                  <point x="0.0" y="-70.0" />
+                  <point x="2177.5" y="1221.0" />
+                  <point x="1754.8333333333333" y="1221.0" />
+                  <point x="27.333333333333258" y="125.5" />
+                </edge>
+                <edge source="\scheduler_slotdate_field" target="\scheduler_export_field">
+                  <point x="0.0" y="-59.0" />
+                  <point x="3077.5" y="1181.0" />
+                  <point x="1809.5" y="1181.0" />
+                  <point x="82.0" y="125.5" />
+                </edge>
+                <edge source="\scheduler_excel_canvas" target="\scheduler_canvas">
+                  <point x="0.0" y="-170.0" />
+                  <point x="815.5" y="320.0" />
+                  <point x="632.1666666666667" y="320.0" />
+                  <point x="81.66666666666674" y="147.5" />
+                </edge>
+                <edge source="\scheduler_attended_field" target="\scheduler_export_field">
+                  <point x="0.0" y="-48.0" />
+                  <point x="555.5" y="1191.0" />
+                  <point x="1659.1666666666667" y="1191.0" />
+                  <point x="-68.33333333333326" y="125.5" />
+                </edge>
+                <edge source="\scheduler_student_field" target="\scheduler_export_field">
+                  <point x="0.0" y="-104.0" />
+                  <point x="1029.0" y="1211.0" />
+                  <point x="1686.5" y="1211.0" />
+                  <point x="-41.0" y="125.5" />
+                </edge>
+                <edge source="\scheduler_location_field" target="\scheduler_export_field">
+                  <point x="0.0" y="-48.0" />
+                  <point x="2402.5" y="1211.0" />
+                  <point x="1768.5" y="1211.0" />
+                  <point x="41.0" y="125.5" />
+                </edge>
+                <edge source="\scheduler_starttime_field" target="\scheduler_export_field">
+                  <point x="0.0" y="-48.0" />
+                  <point x="780.5" y="1201.0" />
+                  <point x="1672.8333333333333" y="1201.0" />
+                  <point x="-54.66666666666674" y="125.5" />
+                </edge>
+                <edge source="\scheduler_pdf_canvas" target="\scheduler_cached_text_canvas">
+                  <point x="0.0" y="-49.0" />
+                  <point x="493.0" y="732.0" />
+                  <point x="367.1666666666667" y="732.0" />
+                  <point x="81.66666666666669" y="181.0" />
+                </edge>
+                <edge source="\scheduler_teachernote_field" target="\scheduler_export_field">
+                  <point x="0.0" y="-81.0" />
+                  <point x="0.0" y="125.5" />
+                </edge>
+                <edge source="\scheduler_csv_canvas" target="\scheduler_cached_text_canvas">
+                  <point x="0.0" y="-49.0" />
+                  <point x="83.5" y="732.0" />
+                  <point x="203.83333333333331" y="732.0" />
+                  <point x="-81.66666666666669" y="181.0" />
+                </edge>
+                <edge source="\scheduler_addsession_form" target="\scheduler_slotform_base">
+                  <point x="0.0" y="-37.0" />
+                  <point x="285.0" y="1759.0" />
+                  <point x="277.0" y="1759.0" />
+                  <point x="90.25" y="115.0" />
+                </edge>
+                <edge source="\scheduler_profile_field" target="\scheduler_export_field">
+                  <point x="0.0" y="-93.0" />
+                  <point x="3302.5" y="1171.0" />
+                  <point x="1823.1666666666665" y="1171.0" />
+                  <point x="95.66666666666652" y="125.5" />
+                </edge>
+                <edge source="\scheduler_slotnotes_field" target="\scheduler_export_field">
+                  <point x="0.0" y="-70.0" />
+                  <point x="1277.5" y="1221.0" />
+                  <point x="1700.1666666666667" y="1221.0" />
+                  <point x="-27.333333333333258" y="125.5" />
+                </edge>
+                <edge source="\scheduler_filecount_field" target="\scheduler_export_field">
+                  <point x="0.0" y="-81.0" />
+                  <point x="2852.5" y="1191.0" />
+                  <point x="1795.8333333333333" y="1191.0" />
+                  <point x="68.33333333333326" y="125.5" />
+                </edge>
+                <edge source="\scheduler_grade_field" target="\scheduler_export_field">
+                  <point x="0.0" y="-59.0" />
+                  <point x="2627.5" y="1201.0" />
+                  <point x="1782.1666666666667" y="1201.0" />
+                  <point x="54.66666666666674" y="125.5" />
+                </edge>
+                <edge source="\scheduler_ods_canvas" target="\scheduler_canvas">
+                  <point x="0.0" y="-170.0" />
+                  <point x="0.0" y="147.5" />
+                </edge>
+                <edge source="\scheduler_studentnote_field" target="\scheduler_export_field">
+                  <point x="0.0" y="-81.0" />
+                  <point x="1502.5" y="1231.0" />
+                  <point x="1713.8333333333333" y="1231.0" />
+                  <point x="-13.666666666666742" y="125.5" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="0.5225852272727273" x="1575.7298589866778" y="722.6540034242879" />
+              <SelectedNodes />
+              <Categories>
+                <Category>Fields</Category>
+                <Category>Constants</Category>
+                <Category>Methods</Category>
+                <Category>Constructors</Category>
+              </Categories>
+              <VISIBILITY>private</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JavaScript-modules-diagram/C:/xampp/htdocs/moodle/mod/scheduler" pinned="false" current-in-tab="false">
+        <entry file="uml://JavaScript-modules-diagram/C:/xampp/htdocs/moodle/mod/scheduler">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JavaScript-modules-diagram</ID>
+              <OriginalElement>$PROJECT_DIR$</OriginalElement>
+              <nodes />
+              <notes />
+              <edges />
+              <settings layout="Hierarchic Group" zoom="1.0" x="240.0" y="240.0" />
+              <SelectedNodes />
+              <Categories>
+                <Category>All</Category>
+              </Categories>
+              <VISIBILITY>Details</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="85" />
+    <option name="y" value="25" />
+    <option name="width" value="1750" />
+    <option name="height" value="968" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="scheduler" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scheduler" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="scheduler" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scheduler" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="backup" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1d7b955c-ff46-4fc9-9d57-91eb06e33dd8" name="Default" comment="" />
+      <created>1523706449372</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1523706449372</updated>
+      <workItem from="1523706458908" duration="2035000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2035000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22526042" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="uml://JavaScript-modules-diagram/C:/xampp/htdocs/moodle/mod/scheduler">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JavaScript-modules-diagram</ID>
+          <OriginalElement>$PROJECT_DIR$</OriginalElement>
+          <nodes />
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="240.0" y="240.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>All</Category>
+          </Categories>
+          <VISIBILITY>Details</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://PHP/C:/xampp/htdocs/moodle/mod/scheduler">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>PHP</ID>
+          <OriginalElement>$PROJECT_DIR$</OriginalElement>
+          <nodes>
+            <node x="1564.0" y="2201.0">$PROJECT_DIR$/db</node>
+            <node x="418.0" y="1504.0">\scheduler_file_info</node>
+            <node x="1178.0" y="2201.0">$PROJECT_DIR$/tests</node>
+            <node x="1932.0" y="1970.0">\scheduler_export_form</node>
+            <node x="0.0" y="1307.0">\scheduler_endtime_field</node>
+            <node x="903.0" y="1251.0">\scheduler_student_field</node>
+            <node x="0.0" y="757.0">\scheduler_csv_canvas</node>
+            <node x="428.0" y="356.0">\scheduler_ods_canvas</node>
+            <node x="1625.0" y="1274.0">\scheduler_teachernote_field</node>
+            <node x="1175.0" y="1285.0">\scheduler_slotnotes_field</node>
+            <node x="1067.0" y="2201.0">$PROJECT_DIR$/model</node>
+            <node x="1400.0" y="1274.0">\scheduler_studentnote_field</node>
+            <node x="1322.0" y="1970.0">\scheduler_scheduling_list</node>
+            <node x="2669.0" y="1970.0">\scheduler_messenger</node>
+            <node x="0.0" y="1784.0">\scheduler_editslot_form</node>
+            <node x="678.0" y="1307.0">\scheduler_starttime_field</node>
+            <node x="2075.0" y="1285.0">\scheduler_teachername_field</node>
+            <node x="0.0" y="2201.0">\scheduler_message_form</node>
+            <node x="3200.0" y="1262.0">\scheduler_profile_field</node>
+            <node x="954.0" y="2201.0">$PROJECT_DIR$/classes</node>
+            <node x="1625.0" y="900.0">\scheduler_export_field</node>
+            <node x="508.0" y="1970.0">\scheduler_slot_booker</node>
+            <node x="187.0" y="769.0">\scheduler_html_canvas</node>
+            <node x="1903.0" y="1504.0">\scheduler_appointment_info</node>
+            <node x="321.0" y="2201.0">\mod_scheduler_mod_form</node>
+            <node x="2350.0" y="1504.0">\scheduler_editappointment_form</node>
+            <node x="197.0" y="1817.5">\scheduler_addsession_form</node>
+            <node x="2300.0" y="1307.0">\scheduler_location_field</node>
+            <node x="1628.0" y="1970.0">\scheduler_slot_manager</node>
+            <node x="1472.0" y="2201.0">$PROJECT_DIR$/yui</node>
+            <node x="976.0" y="1970.0">\scheduler_command_bar</node>
+            <node x="225.0" y="1274.0">\scheduler_appointmentnote_field</node>
+            <node x="601.0" y="2201.0">\scheduler_conflict_list</node>
+            <node x="163.0" y="345.0">\scheduler_cached_text_canvas</node>
+            <node x="6.25" y="1504.0">\scheduler_slotform_base</node>
+            <node x="453.0" y="1307.0">\scheduler_attended_field</node>
+            <node x="983.0" y="0.0">\mod_scheduler_renderer</node>
+            <node x="2750.0" y="1274.0">\scheduler_filecount_field</node>
+            <node x="1379.0" y="2201.0">$PROJECT_DIR$/pix</node>
+            <node x="0.0" y="1970.0">\scheduler_export</node>
+            <node x="1279.0" y="2201.0">$PROJECT_DIR$/lang</node>
+            <node x="2525.0" y="1296.0">\scheduler_grade_field</node>
+            <node x="2975.0" y="1296.0">\scheduler_slotdate_field</node>
+            <node x="404.0" y="757.0">\scheduler_pdf_canvas</node>
+            <node x="2253.0" y="1970.0">\scheduler_totalgrade_info</node>
+            <node x="428.0" y="0.0">\scheduler_canvas</node>
+            <node x="852.0" y="1504.0">\scheduler_slot_table</node>
+            <node x="839.0" y="2201.0">$PROJECT_DIR$/backup</node>
+            <node x="1850.0" y="1307.0">\scheduler_maxstudents_field</node>
+            <node x="693.0" y="356.0">\scheduler_excel_canvas</node>
+            <node x="1394.0" y="1504.0">\scheduler_student_list</node>
+            <node x="2735.0" y="1504.0">\scheduler_booking_form</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="\scheduler_maxstudents_field" target="\scheduler_export_field">
+              <point x="0.0" y="-48.0" />
+              <point x="1952.5" y="1231.0" />
+              <point x="1741.1666666666667" y="1231.0" />
+              <point x="13.666666666666742" y="125.5" />
+            </edge>
+            <edge source="\scheduler_editslot_form" target="\scheduler_slotform_base">
+              <point x="0.0" y="-70.5" />
+              <point x="88.5" y="1759.0" />
+              <point x="96.5" y="1759.0" />
+              <point x="-90.25" y="115.0" />
+            </edge>
+            <edge source="\scheduler_appointmentnote_field" target="\scheduler_export_field">
+              <point x="0.0" y="-81.0" />
+              <point x="329.0" y="1181.0" />
+              <point x="1645.5" y="1181.0" />
+              <point x="-82.0" y="125.5" />
+            </edge>
+            <edge source="\scheduler_endtime_field" target="\scheduler_export_field">
+              <point x="0.0" y="-48.0" />
+              <point x="102.5" y="1171.0" />
+              <point x="1631.8333333333333" y="1171.0" />
+              <point x="-95.66666666666674" y="125.5" />
+            </edge>
+            <edge source="\scheduler_cached_text_canvas" target="\scheduler_canvas">
+              <point x="0.0" y="-181.0" />
+              <point x="285.5" y="320.0" />
+              <point x="468.8333333333333" y="320.0" />
+              <point x="-81.66666666666669" y="147.5" />
+            </edge>
+            <edge source="\scheduler_html_canvas" target="\scheduler_cached_text_canvas">
+              <point x="0.0" y="-37.0" />
+              <point x="0.0" y="181.0" />
+            </edge>
+            <edge source="\scheduler_teachername_field" target="\scheduler_export_field">
+              <point x="0.0" y="-70.0" />
+              <point x="2177.5" y="1221.0" />
+              <point x="1754.8333333333333" y="1221.0" />
+              <point x="27.333333333333258" y="125.5" />
+            </edge>
+            <edge source="\scheduler_slotdate_field" target="\scheduler_export_field">
+              <point x="0.0" y="-59.0" />
+              <point x="3077.5" y="1181.0" />
+              <point x="1809.5" y="1181.0" />
+              <point x="82.0" y="125.5" />
+            </edge>
+            <edge source="\scheduler_excel_canvas" target="\scheduler_canvas">
+              <point x="0.0" y="-170.0" />
+              <point x="815.5" y="320.0" />
+              <point x="632.1666666666667" y="320.0" />
+              <point x="81.66666666666674" y="147.5" />
+            </edge>
+            <edge source="\scheduler_attended_field" target="\scheduler_export_field">
+              <point x="0.0" y="-48.0" />
+              <point x="555.5" y="1191.0" />
+              <point x="1659.1666666666667" y="1191.0" />
+              <point x="-68.33333333333326" y="125.5" />
+            </edge>
+            <edge source="\scheduler_student_field" target="\scheduler_export_field">
+              <point x="0.0" y="-104.0" />
+              <point x="1029.0" y="1211.0" />
+              <point x="1686.5" y="1211.0" />
+              <point x="-41.0" y="125.5" />
+            </edge>
+            <edge source="\scheduler_location_field" target="\scheduler_export_field">
+              <point x="0.0" y="-48.0" />
+              <point x="2402.5" y="1211.0" />
+              <point x="1768.5" y="1211.0" />
+              <point x="41.0" y="125.5" />
+            </edge>
+            <edge source="\scheduler_starttime_field" target="\scheduler_export_field">
+              <point x="0.0" y="-48.0" />
+              <point x="780.5" y="1201.0" />
+              <point x="1672.8333333333333" y="1201.0" />
+              <point x="-54.66666666666674" y="125.5" />
+            </edge>
+            <edge source="\scheduler_pdf_canvas" target="\scheduler_cached_text_canvas">
+              <point x="0.0" y="-49.0" />
+              <point x="493.0" y="732.0" />
+              <point x="367.1666666666667" y="732.0" />
+              <point x="81.66666666666669" y="181.0" />
+            </edge>
+            <edge source="\scheduler_teachernote_field" target="\scheduler_export_field">
+              <point x="0.0" y="-81.0" />
+              <point x="0.0" y="125.5" />
+            </edge>
+            <edge source="\scheduler_csv_canvas" target="\scheduler_cached_text_canvas">
+              <point x="0.0" y="-49.0" />
+              <point x="83.5" y="732.0" />
+              <point x="203.83333333333331" y="732.0" />
+              <point x="-81.66666666666669" y="181.0" />
+            </edge>
+            <edge source="\scheduler_addsession_form" target="\scheduler_slotform_base">
+              <point x="0.0" y="-37.0" />
+              <point x="285.0" y="1759.0" />
+              <point x="277.0" y="1759.0" />
+              <point x="90.25" y="115.0" />
+            </edge>
+            <edge source="\scheduler_profile_field" target="\scheduler_export_field">
+              <point x="0.0" y="-93.0" />
+              <point x="3302.5" y="1171.0" />
+              <point x="1823.1666666666665" y="1171.0" />
+              <point x="95.66666666666652" y="125.5" />
+            </edge>
+            <edge source="\scheduler_slotnotes_field" target="\scheduler_export_field">
+              <point x="0.0" y="-70.0" />
+              <point x="1277.5" y="1221.0" />
+              <point x="1700.1666666666667" y="1221.0" />
+              <point x="-27.333333333333258" y="125.5" />
+            </edge>
+            <edge source="\scheduler_filecount_field" target="\scheduler_export_field">
+              <point x="0.0" y="-81.0" />
+              <point x="2852.5" y="1191.0" />
+              <point x="1795.8333333333333" y="1191.0" />
+              <point x="68.33333333333326" y="125.5" />
+            </edge>
+            <edge source="\scheduler_grade_field" target="\scheduler_export_field">
+              <point x="0.0" y="-59.0" />
+              <point x="2627.5" y="1201.0" />
+              <point x="1782.1666666666667" y="1201.0" />
+              <point x="54.66666666666674" y="125.5" />
+            </edge>
+            <edge source="\scheduler_ods_canvas" target="\scheduler_canvas">
+              <point x="0.0" y="-170.0" />
+              <point x="0.0" y="147.5" />
+            </edge>
+            <edge source="\scheduler_studentnote_field" target="\scheduler_export_field">
+              <point x="0.0" y="-81.0" />
+              <point x="1502.5" y="1231.0" />
+              <point x="1713.8333333333333" y="1231.0" />
+              <point x="-13.666666666666742" y="125.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.5225852272727273" x="1575.7298589866778" y="722.6540034242879" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constants</Category>
+            <Category>Methods</Category>
+            <Category>Constructors</Category>
+          </Categories>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
